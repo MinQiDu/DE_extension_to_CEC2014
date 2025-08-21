@@ -1,19 +1,23 @@
-# Implement DE extension for Solving 13 Benchmark Functions
+# Implement DE extension for Solving CEC2014 30 Benchmark Functions
 
 ## ( I ) Introduction
 
 - **Programming language:** C++
-- **Metaheuristic algorithm:** DE, JADE (Adaptive DE), SHADE (Success-History based parameter Adaptation for DE)
-- **Benchmark functions:** 13 standard functions from IEEE CEC (f1 \~ f13)
+- **Metaheuristic algorithm:**    
+DE,    
+JADE (Adaptive DE),    
+SHADE (Success-History based parameter Adaptation for DE),    
+L-SHADE (SHADE Using  Linear Population Size Reduction)
+- **Benchmark functions:** 30 Benchmark Functions from IEEE CEC2014 (f1 \~ f30)
 - **Visualization:** Gnuplot
-- **Configurable parameters:** iterations, dimension, population size, control parameters, archive on/off
+- **Configurable parameters:** dimension, population size, control parameters, func_id, archive on/off
 
 ---
 
 ## ( II ) Main Functionality
 
 ### `DE`
-- `void RunALG(int iter, int dim, int pop_size, double mCR, double mF, double c, double p, int func_id, bool a_func)` *Main interface to run with given configuration*
+- `void RunALG(int dim, int pop_size, double CR, double F, int func_id)` *Main interface to run with given configuration*
 
 - `void Init()` *Initializes population within bounds for selected benchmark function*
 
@@ -26,7 +30,7 @@
 - `void Determination()` *Selects better individuals and records improvements*
 
 ### `JADE`
-- `void RunALG(int iter, int dim, int pop_size, double mCR, double mF, double c, double p, int func_id, bool a_func)` *Main interface to run with given configuration*
+- `void RunALG(int dim, int pop_size, double mCR, double mF, double c, double p, int func_id, bool a_func)` *Main interface to run with given configuration*
 
 - `void Init()` *Initializes population within bounds for selected benchmark function*
 
@@ -41,7 +45,7 @@
 - `void ParaAdaptation()` *Adapts mCR and mF based on successful individuals*
 
 ### `SHADE`
-- `void RunALG(int iter, int dim, int pop_size, double mCR, double mF, double c, double p, int func_id, bool a_func)` *Main interface to run with given configuration*
+- `void RunALG(int dim, int pop_size, double mCR, double mF, double c, double p, int func_id, bool a_func)` *Main interface to run with given configuration*
 
 - `void Init()` *Initializes population within bounds for selected benchmark function*
 
@@ -55,6 +59,23 @@
 
 - `void ParaAdaptation()` *Adapts mCR and mF based on successful individuals*
 
+### `L-SHADE`
+- `void RunALG(int dim, int pop_size, double mCR, double mF, double c, double p, int func_id, bool a_func)` *Main interface to run with given configuration*
+
+- `void Init()` *Initializes population within bounds for selected benchmark function*
+
+- `void Mutation()` *Applies DE/current-to-pbest/1 mutation with optional archive*
+
+- `void Crossover()` *Performs binomial crossover with boundary reflection and jittering*
+
+- `void Evaluation()` *Evaluates fitness using selected benchmark function*
+
+- `void Determination()` *Selects better individuals and records improvements*
+
+- `void ParaAdaptation()` *Adapts mCR and mF based on successful individuals*
+
+- `void LPSR()` *Linear Population Size Reduction*
+
 ---
 
 ## ( III ) Input
@@ -62,28 +83,23 @@
 ### Command-line arguments:
 For DE:
 ```
-DE_extension.exe iter dim pop_size CR F c p func_id archive_flag DE
+.exe {dim} {pop_size} {CR} {F} {func_id} DE
 ```
 
-- `iter`: Max number of iterations (e.g., 100)
 - `dim`: Problem dimensionality (e.g., 30)
-- `pop_size`: Population size (e.g., 100)
+- (NO USE) `pop_size`: Population size (e.g., 100)
 - `CR`: Mean crossover rate (e.g., 0.5)
 - `F`: Mean scaling factor F (e.g., 0.5)
-- `c`: NO USE
-- `p`: NO USE
 - `func_id`: Benchmark function ID (1\~13)
-- `archive_flag`: NO USE
 - `algo_type`: Type of Algorithm
 
 For JADE:
 ```
-DE_extension.exe iter dim pop_size mCR mF c p func_id archive_flag JADE
+.exe {dim} {pop_size} {mCR} {mF} {c} {p} {func_id} {archive_flag} JADE
 ```
 
-- `iter`: Max number of iterations (e.g., 100)
 - `dim`: Problem dimensionality (e.g., 30)
-- `pop_size`: Population size (e.g., 100)
+- (NO USE) `pop_size`: Population size (e.g., 100)
 - `mCR`: Mean crossover rate (e.g., 0.5)
 - `mF`: Mean scaling factor F (e.g., 0.5)
 - `c`: Adaptation constant (e.g., 0.1)
@@ -94,12 +110,26 @@ DE_extension.exe iter dim pop_size mCR mF c p func_id archive_flag JADE
 
 For SHADE:
 ```
-DE_extension.exe iter dim pop_size mCR mF H p func_id archive_flag SHADE
+.exe {dim} {pop_size} {mCR} {mF} {H} {p} {func_id} {archive_flag} SHADE
 ```
 
-- `iter`: Max number of iterations (e.g., 100)
 - `dim`: Problem dimensionality (e.g., 30)
-- `pop_size`: Population size (e.g., 100)
+- (NO USE) `pop_size`: Population size (e.g., 100)
+- `mCR`: Mean crossover rate (e.g., 0.5)
+- `mF`: Mean scaling factor F (e.g., 0.5)
+- `H`: History size of mCR & mF (e.g., 100)
+- `p`: Top p% for pbest selection (e.g., 0.1)
+- `func_id`: Benchmark function ID (1\~13)
+- `archive_flag`: Use archive (1 = true, 0 = false)
+- `algo_type`: Type of Algorithm
+
+For L-SHADE:
+```
+.exe {dim} {pop_size} {mCR} {mF} {H} {p} {func_id} {archive_flag} LSHADE
+```
+
+- `dim`: Problem dimensionality (e.g., 30)
+- (NO USE) `pop_size`: Population size (e.g., 100)
 - `mCR`: Mean crossover rate (e.g., 0.5)
 - `mF`: Mean scaling factor F (e.g., 0.5)
 - `H`: History size of mCR & mF (e.g., 100)
@@ -114,37 +144,49 @@ DE_extension.exe iter dim pop_size mCR mF H p func_id archive_flag SHADE
 #### DE
 - `DE_integrated_fitness.txt`
   - Appended summary of all function tests
-- `DE_fitness_func{fid}_iter{iter}_dim{dim}.txt`
+- `DE_fitness_func{fid}_dim{dim}.txt`
   - Summary per run: best fitness per run, avg fitness
-- `DE_fitness_avg_cvg{fid}_iter{iter}_dim{dim}.txt`
+- `DE_fitness_avg_cvg{fid}_dim{dim}.txt`
   - Best fitness at each evaluation
-- `plot_DE_func{fid}_iter{iter}_dim{dim}.plt`
+- `plot_DE_func{fid}_dim{dim}.plt`
   - Gnuplot script
-- `DE_cvg_plot_func{fid}_iter{iter}_dim{dim}.png`
+- `DE_cvg_plot_func{fid}_dim{dim}.png`
   - Convergence plot
 
 #### JADE
 - `JADE_integrated_fitness.txt`
   - Appended summary of all function tests
-- `JADE_fitness_func{fid}_iter{iter}_dim{dim}_archive_{true|false}.txt`
+- `JADE_fitness_func{fid}_dim{dim}_archive_{true|false}.txt`
   - Summary per run: best fitness per run, avg fitness
-- `JADE_fitness_avg_cvg{fid}_iter{iter}_dim{dim}_archive_{true|false}.txt`
+- `JADE_fitness_avg_cvg{fid}_dim{dim}_archive_{true|false}.txt`
   - Best fitness at each evaluation
-- `plot_JADE_func{fid}_iter{iter}_dim{dim}_archive_{true|false}.plt`
+- `plot_JADE_func{fid}_dim{dim}_archive_{true|false}.plt`
   - Gnuplot script
-- `JADE_cvg_plot_func{fid}_iter{iter}_dim{dim}_archive_{true|false}.png`
+- `JADE_cvg_plot_func{fid}_dim{dim}_archive_{true|false}.png`
   - Convergence plot
 
 #### SHADE
 - `SHADE_integrated_fitness.txt`
   - Appended summary of all function tests
-- `SHADE_fitness_func{fid}_iter{iter}_dim{dim}_archive_{true|false}.txt`
+- `SHADE_fitness_func{fid}_dim{dim}_archive_{true|false}.txt`
   - Summary per run: best fitness per run, avg fitness
-- `SHADE_fitness_avg_cvg{fid}_iter{iter}_dim{dim}_archive_{true|false}.txt`
+- `SHADE_fitness_avg_cvg{fid}_dim{dim}_archive_{true|false}.txt`
   - Best fitness at each evaluation
-- `plot_SHADE_func{fid}_iter{iter}_dim{dim}_archive_{true|false}.plt`
+- `plot_SHADE_func{fid}_dim{dim}_archive_{true|false}.plt`
   - Gnuplot script
-- `SHADE_cvg_plot_func{fid}_iter{iter}_dim{dim}_archive_{true|false}.png`
+- `SHADE_cvg_plot_func{fid}_dim{dim}_archive_{true|false}.png`
+  - Convergence plot
+
+#### L-SHADE
+- `LSHADE_integrated_fitness.txt`
+  - Appended summary of all function tests
+- `LSHADE_fitness_func{fid}_dim{dim}_archive_{true|false}.txt`
+  - Summary per run: best fitness per run, avg fitness
+- `LSHADE_fitness_avg_cvg{fid}_dim{dim}_archive_{true|false}.txt`
+  - Best fitness at each evaluation
+- `plot_LSHADE_func{fid}_dim{dim}_archive_{true|false}.plt`
+  - Gnuplot script
+- `LSHADE_cvg_plot_func{fid}_dim{dim}_archive_{true|false}.png`
   - Convergence plot
 
 ---
@@ -154,30 +196,54 @@ DE_extension.exe iter dim pop_size mCR mF H p func_id archive_flag SHADE
 ### Compile
 
 ```bash
-Ctrl + Shift + B in VisualStudio 
+方法1 in VisualStudio : Ctrl + Shift + B 
+```
+```MSYS2
+方法2 in MSYS2 : g++ main.cpp DE.cpp JADE.cpp LSHADE.cpp SHADE.cpp cec14_test_func.cpp -o run.exe -std=c++11
 ```
 
 ### Run
 
-
 ```bash
-// Run DE for function f6, 100 iterations, dim=30
-./DE_extension.exe 100 30 100 0.5 0.5 0.1 0.1 6 0 de
+// Run DE for function f6, dim=30
+./.exe 30 100 0.5 0.5 0.1 0.1 6 0 DE
 
-// Run JADE for function f6, 100 iterations, dim=30, no archive
-./DE_extension.exe 100 30 100 0.5 0.5 0.1 0.1 6 0 jade 
+// Run JADE for function f6, dim=30, with archive
+./.exe 30 100 0.5 0.5 0.1 0.1 6 1 JADE 
 
-// Run SHADE for function f6, 100 iterations, dim=30, no archive
-./DE_extension.exe 100 30 100 0.5 0.5 100 0.05 6 0 shade
+// Run SHADE for function f6, dim=30, with archive
+./.exe 30 100 0.5 0.5 100 0.05 6 1 SHADE
+
+// Run LSHADE for function f6, dim=30, with archive
+./.exe 30 100 0.5 0.5 100 0.05 6 1 LSHADE
 ```
 **Notice: You can click .bat files in folder docs to run jade.exe**
 
 ### Visualize
-
-```bash
-gnuplot plot_JADE_func6_iter100_dim30_archive_false.plt
-```
 **Generates PNG image of convergence plot.**
+```bash
+// generate plot of DE in function {func_id}
+gnuplot plot_DE_func{fid}_dim{dim}.plt
+
+// generate plot of JADE in function {func_id}
+gnuplot plot_JADE_func{fid}_dim{dim}_archive_{true|false}.plt
+
+// generate plot of SHADE in function {func_id}
+gnuplot plot_SHADE_func{fid}_dim{dim}_archive_{true|false}.plt
+
+// generate plot of L-SHADE in function {func_id}
+gnuplot plot_LSHADE_func{fid}_dim{dim}_archive_{true|false}.plt
+```
+```
+// 當有以下文字紀錄:
+// `DE_fitness_avg_cvg{fid}_dim{dim}.txt`
+// `JADE_fitness_avg_cvg{fid}_dim{dim}_archive_{true|false}.txt`
+// `SHADE_fitness_avg_cvg{fid}_dim{dim}_archive_{true|false}.txt`
+// `LSHADE_fitness_avg_cvg{fid}_dim{dim}_archive_{true|false}.txt`
+
+// generate comparison plot between DE, JADE, SHADE and LSHADE
+gnuplot plot_compare_func{fid}_dim{dim}_archive_{true|false}.plt
+```
 
 ---
 
@@ -189,8 +255,9 @@ DE_extension_Benchmark/
 ├── DE.cpp / DE.h
 ├── JADE.cpp / JADE.h
 ├── SHADE.cpp / SHADE.h
-├── Benchmark.cpp / Benchmark.h
-├── DE_fileoutput.h / JADE_fileoutput.h / SHADE_fileoutput.h
+├── LSHADE.cpp / LSHADE.h
+├── cec14_test_func.cpp / cec14_test_func.h
+├── DE_fileoutput.h / JADE_fileoutput.h / SHADE_fileoutput.h / LSHADE_fileoutput.h
 ├── results/ ← output files (.txt, .png)
 │   ├── DE
 │   │  ├── DE_integrated_fitness.txt
@@ -226,7 +293,7 @@ DE_extension_Benchmark/
 
 <img src="docs/benchmark.png" width="50%"/>
 
-### **Compared Convergence Plot of DE & JADE & SHADE**
+### **Compared Convergence Plot of DE & JADE & SHADE & L-SHADE**
 <p align="center">
   <img src="results/Compare/compare_avg_cvg_plot_func1_iter1500_dim30_archive_true.png" width="49%"/>
   <img src="results/Compare/compare_avg_cvg_plot_func2_iter2000_dim30_archive_true.png" width="49%"/>
