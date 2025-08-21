@@ -27,7 +27,8 @@ void algo_DE::RunALG(int _dim, int _pop_size, double _CR, double _F, int _func_i
 	{
 		iter_c = 0; // 當前迭代次數
 		dim = _dim;
-		pop_size = _pop_size;
+		int r_init_pop = 18; // 初始群體大小比例
+		pop_size = dim * r_init_pop;
 		CR = _CR;
 		F = _F;
 		func_id = _func_id;

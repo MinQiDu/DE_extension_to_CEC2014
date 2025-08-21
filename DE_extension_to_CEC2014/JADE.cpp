@@ -27,7 +27,8 @@ void algo_JADE::RunALG(int _dim, int _pop_size, double _mCR, double _mF, double 
 	{
 		iter_c = 0;
 		dim = _dim;
-		pop_size = _pop_size;
+		int r_init_pop = 18; // 初始群體大小比例
+		pop_size = dim * r_init_pop;
 		mCR = _mCR;
 		mF = _mF;
 		c = _c;

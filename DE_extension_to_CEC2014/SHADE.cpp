@@ -27,7 +27,8 @@ void algo_SHADE::RunALG(int _dim, int _pop_size, double _mCR, double _mF, double
 	{
 		iter_c = 0;
 		dim = _dim;
-		pop_size = _pop_size;
+		int r_init_pop = 18; // 初始群體大小比例
+		pop_size = dim * r_init_pop;
 		H = _H;
 		p = _p;
 		func_id = _func_id;
