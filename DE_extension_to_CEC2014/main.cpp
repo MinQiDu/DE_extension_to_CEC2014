@@ -20,9 +20,9 @@ int main(int argc, char* argv[])
 	//	algo_type.begin(),
 	//	toupper);
 
-	if (func_id < 1 || func_id > 13)
+	if (func_id < 1 || func_id > 30)
 	{
-		cout << "Invalid function ID. Please enter a value between 1 and 13." << endl;
+		cout << "Invalid function ID. Please enter a value between 1 and 30." << endl;
 		return 1; // µ²§ôµ{¦¡
 	}
 
