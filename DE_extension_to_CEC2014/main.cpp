@@ -15,6 +15,7 @@ int main(int argc, char* argv[])
 	double p = atof(argv[6]);   // adaptation rate c and top % pop chosen for pbest
 	int func_id = atoi(argv[7]);
 	string algo_type = argv[9]; // DE or JADE or SHADE or LSHADE
+
 	//transform(algo_type.begin(), // 防呆! 轉換algo_type成全大寫
 	//	algo_type.end(),
 	//	algo_type.begin(),

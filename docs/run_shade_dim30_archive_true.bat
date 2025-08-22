@@ -65,70 +65,70 @@ DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 13 %archive% "%a
 
 :: ========== f14 ==========
 echo Running f14
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 14 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 14 %archive% "%algo%"
 
 :: ========== f15 ==========
 echo Running f15
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 15 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 15 %archive% "%algo%"
 
 :: ========== f16 ==========
 echo Running f16
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 16 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 16 %archive% "%algo%"
 
 :: ========== f17 ==========
 echo Running f17
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 17 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 17 %archive% "%algo%"
 
 :: ========== f18 ==========
 echo Running f18
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 18 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 18 %archive% "%algo%"
 
 :: ========== f19 ==========
 echo Running f19
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 19 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 19 %archive% "%algo%"
 
 :: ========== f20 ==========
 echo Running f20
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 20 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 20 %archive% "%algo%"
 
 :: ========== f21 ==========
 echo Running f21
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 21 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 21 %archive% "%algo%"
 
 :: ========== f22 ==========
 echo Running f22
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 22 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 22 %archive% "%algo%"
 
 :: ========== f23 ==========
 echo Running f23
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 23 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 23 %archive% "%algo%"
 
 :: ========== f24 ==========
 echo Running f24
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 24 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 24 %archive% "%algo%"
 
 :: ========== f25 ==========
 echo Running f25
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 25 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 25 %archive% "%algo%"
 
 :: ========== f26 ==========
 echo Running f26
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 26 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 26 %archive% "%algo%"
 
 :: ========== f27 ==========
 echo Running f27
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 27 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 27 %archive% "%algo%"
 
 :: ========== f28 ==========
 echo Running f28
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 28 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 28 %archive% "%algo%"
 
 :: ========== f29 ==========
 echo Running f29
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 29 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 29 %archive% "%algo%"
 
 :: ========== f30 ==========
 echo Running f30
-DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %c% %p% 30 %archive% "%algo%"
+DE_extension_to_CEC2014.exe %dim% %pop_size% %mCR% %mF% %H% %p% 30 %archive% "%algo%"
 
 pause

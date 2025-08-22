@@ -7,7 +7,7 @@
 #include <string>
 #include <cmath>     /* for sqrt */
 #include <numeric>   /* for accumulate */
-#include "LSHADE_fileoutput.h" // 包含 FileOutput 函式的宣告
+#include "LSHADE_fileoutput.h" /* 包含 FileOutput 函式的宣告 */
 
 /* Constructor 初始化亂數引擎 */
 algo_LSHADE::algo_LSHADE()
@@ -27,16 +27,16 @@ void algo_LSHADE::RunALG(int _dim, int _pop_size, double _mCR, double _mF, doubl
 		iter_c = 0;   // 當前迭代次數 = G
 		dim = _dim;
 
-		init_pop_size = dim * r_init_pop; // 記住初始群體大小
-		pop_size = init_pop_size;			  // 當前群體大小
-		min_pop_size = 4;				  // 最小群體大小 = 4
+		r_init_pop = 18.0;					// 初始群體大小比例
+		r_archive = 2.6;					// archive list A 的比例
+		init_pop_size = dim * r_init_pop;	// 記住初始群體大小
+		pop_size = init_pop_size;			// 當前群體大小
+		min_pop_size = 4;				    // 最小群體大小 = 4
 
 		H = _H;
 		p = _p;
 		func_id = _func_id;
 		archive_flag = _archive_flag;
-		r_init_pop = 18.0; // 初始群體大小比例
-		r_archive = 2.6;   // archive list A 的比例
 
 		Init(); // 初始化群體解
 
