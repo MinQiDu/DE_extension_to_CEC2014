@@ -19,7 +19,7 @@ set output outname
 # %s 代表 字串 (string) → 用來填 archive 這種文字變數 ("true" 或 "false")
 
 # === TITLE AND AXIS ===
-set title sprintf("Comparison of DE / JADE / SHADE / L-SHADE on f%d (dim=%d)", func_id, dim) \
+set title sprintf("Comparison of DE / JADE / SHADE / L-SHADE on f%d (dim=%d,)", func_id, dim) \
     font "Verdana,15" offset 0,1.3
 set xlabel 'Evaluation Times'
 set ylabel 'Average Best Fitness'
