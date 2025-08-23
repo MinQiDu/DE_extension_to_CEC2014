@@ -1,3 +1,4 @@
+// cec14_test_func.h
 #ifndef CEC14_TEST_FUNC_H
 #define CEC14_TEST_FUNC_H
 #define _CRT_SECURE_NO_WARNINGS
@@ -11,82 +12,81 @@
 #include <sstream>
 #include <cstdlib>
 #include <algorithm>
-using namespace std;
-
-// ========== CEC14 原始函數宣告 ==========
-// 這個檔案裡的函式（像 cec14_test_func）是用 C 語言風格設計的
-// 因此需要使用 extern "C" 來避免 C++ 的名稱修飾（name mangling）問題
-extern "C" {
-	// 原始 C function 定義
-	void cec14_test_func(double* x, double* f, int nx, int mx, int func_num);
-}
-
-// ========== 以下為原始 cec14_test_func.cpp 內容 ==========
-/*
-  CEC14 Test Function Suite for Single Objective Optimization
-  Jane Jing Liang (email: liangjing@zzu.edu.cn; liangjing@pmail.ntu.edu.cn)
-  Dec. 20th 2013
-*/
-
-/*#define NOMINMAX
-#define WIN32_LEAN_AND_MEAN
-#undef byte
-#include <WINDOWS.H>   */   
 #include <stdio.h>
 #include <math.h>
 #include <malloc.h>
+using namespace std;
 
 #define INF 1.0e99
 #define EPS 1.0e-14
 #define E  2.7182818284590452353602874713526625
 #define PI 3.1415926535897932384626433832795029
 
-void GetBounds(double& lower_bound, double& upper_bound, int func_num);
+class Cec14TestFunc {
+public:
+    Cec14TestFunc(int nx, int func_id);   // 這裡載檔＋配置緩衝
+    ~Cec14TestFunc();
 
-void sphere_func(double*, double*, int, double*, double*, int, int); /* Sphere */
-void ellips_func(double*, double*, int, double*, double*, int, int); /* Ellipsoidal */
-void bent_cigar_func(double*, double*, int, double*, double*, int, int); /* Discus */
-void discus_func(double*, double*, int, double*, double*, int, int);  /* Bent_Cigar */
-void dif_powers_func(double*, double*, int, double*, double*, int, int);  /* Different Powers */
-void rosenbrock_func(double*, double*, int, double*, double*, int, int); /* Rosenbrock's */
-void schaffer_F7_func(double*, double*, int, double*, double*, int, int); /* Schwefel's F7 */
-void ackley_func(double*, double*, int, double*, double*, int, int); /* Ackley's */
-void rastrigin_func(double*, double*, int, double*, double*, int, int); /* Rastrigin's  */
-void weierstrass_func(double*, double*, int, double*, double*, int, int); /* Weierstrass's  */
-void griewank_func(double*, double*, int, double*, double*, int, int); /* Griewank's  */
-void schwefel_func(double*, double*, int, double*, double*, int, int); /* Schwefel's */
-void katsuura_func(double*, double*, int, double*, double*, int, int); /* Katsuura */
-void bi_rastrigin_func(double*, double*, int, double*, double*, int, int); /* Lunacek Bi_rastrigin */
-void grie_rosen_func(double*, double*, int, double*, double*, int, int); /* Griewank-Rosenbrock  */
-void escaffer6_func(double*, double*, int, double*, double*, int, int); /* Expanded Scaffer??s F6  */
-void step_rastrigin_func(double*, double*, int, double*, double*, int, int); /* Noncontinuous Rastrigin's  */
-void happycat_func(double*, double*, int, double*, double*, int, int); /* HappyCat */
-void hgbat_func(double*, double*, int, double*, double*, int, int); /* HGBat  */
+    // 等價於舊的 cec14_test_func(x,f,nx=固定,mx,func_id=固定)
+    void Evaluate(double* x, double* f, int mx = 1) const;
+    void GetBounds(double& lower, double& upper) const;
 
-void hf01(double*, double*, int, double*, double*, int*, int, int); /* Hybrid Function 1 */
-void hf02(double*, double*, int, double*, double*, int*, int, int); /* Hybrid Function 2 */
-void hf03(double*, double*, int, double*, double*, int*, int, int); /* Hybrid Function 3 */
-void hf04(double*, double*, int, double*, double*, int*, int, int); /* Hybrid Function 4 */
-void hf05(double*, double*, int, double*, double*, int*, int, int); /* Hybrid Function 5 */
-void hf06(double*, double*, int, double*, double*, int*, int, int); /* Hybrid Function 6 */
+private:
+    // 固定參數
+    int nx_ = 0, func_id_ = 0;
+    int cf_num_ = 10; // 視需要在建構子依 func_id_ 調整
 
-void cf01(double*, double*, int, double*, double*, int); /* Composition Function 1 */
-void cf02(double*, double*, int, double*, double*, int); /* Composition Function 2 */
-void cf03(double*, double*, int, double*, double*, int); /* Composition Function 3 */
-void cf04(double*, double*, int, double*, double*, int); /* Composition Function 4 */
-void cf05(double*, double*, int, double*, double*, int); /* Composition Function 5 */
-void cf06(double*, double*, int, double*, double*, int); /* Composition Function 6 */
-void cf07(double*, double*, int, double*, double*, int*, int); /* Composition Function 7 */
-void cf08(double*, double*, int, double*, double*, int*, int); /* Composition Function 8 */
+    // 緩衝與資料從*位址指標改成vector（每個實例一份）
+    vector<double> OShift_, M_;    // 尺寸依函數而異
+    vector<int>    SS_;
+    mutable vector<double> y_, z_, x_bound_; // 工作暫存（mutable 讓 Evaluate 可改）
 
-void shiftfunc(double*, double*, int, double*);
-void rotatefunc(double*, double*, int, double*);
-void sr_func(double*, double*, int, double*, double*, double, int, int); /* shift and rotate */
-void asyfunc(double*, double* x, int, double);
-void oszfunc(double*, double*, int);
-void cf_cal(double*, double*, int, double*, double*, double*, double*, int);
+    // 工具（把原 free functions 搬進來）
+    void sphere_func(double*, double*, int, const double*, const double*, int, int) const;        /* Sphere */
+    void ellips_func(double*, double*, int, const double*, const double*, int, int) const;        /* Ellipsoidal */
+    void bent_cigar_func(double*, double*, int, const double*, const double*, int, int) const;    /* Discus */
+    void discus_func(double*, double*, int, const double*, const double*, int, int) const;        /* Bent_Cigar */
+    void dif_powers_func(double*, double*, int, const double*, const double*, int, int) const;    /* Different Powers */
+    void rosenbrock_func(double*, double*, int, const double*, const double*, int, int) const;    /* Rosenbrock's */
+    void schaffer_F7_func(double*, double*, int, const double*, const double*, int, int) const;   /* Schwefel's F7 */
+    void ackley_func(double*, double*, int, const double*, const double*, int, int) const;        /* Ackley's */
+    void rastrigin_func(double*, double*, int, const double*, const double*, int, int) const;     /* Rastrigin's  */
+    void weierstrass_func(double*, double*, int, const double*, const double*, int, int) const;   /* Weierstrass's  */
+    void griewank_func(double*, double*, int, const double*, const double*, int, int) const;      /* Griewank's  */
+    void schwefel_func(double*, double*, int, const double*, const double*, int, int) const;      /* Schwefel's */
+    void katsuura_func(double*, double*, int, const double*, const double*, int, int) const;      /* Katsuura */
+    void bi_rastrigin_func(double*, double*, int, const double*, const double*, int, int) const;  /* Lunacek Bi_rastrigin */
+    void grie_rosen_func(double*, double*, int, const double*, const double*, int, int) const;    /* Griewank-Rosenbrock  */
+    void escaffer6_func(double*, double*, int, const double*, const double*, int, int) const;     /* Expanded Scaffer??s F6  */
+    void step_rastrigin_func(double*, double*, int, const double*, const double*, int, int) const;/* Noncontinuous Rastrigin's  */
+    void happycat_func(double*, double*, int, const double*, const double*, int, int) const;      /* HappyCat */
+    void hgbat_func(double*, double*, int, const double*, const double*, int, int) const;         /* HGBat  */
 
-extern double* OShift, * M, * y, * z, * x_bound;
-extern int ini_flag, n_flag, func_flag, * SS;
+    void hf01(double*, double*, int, const double*, const double*, const int*, int, int) const;   /* Hybrid Function 1 */
+    void hf02(double*, double*, int, const double*, const double*, const int*, int, int) const;   /* Hybrid Function 2 */
+    void hf03(double*, double*, int, const double*, const double*, const int*, int, int) const;   /* Hybrid Function 3 */
+    void hf04(double*, double*, int, const double*, const double*, const int*, int, int) const;   /* Hybrid Function 4 */
+    void hf05(double*, double*, int, const double*, const double*, const int*, int, int) const;   /* Hybrid Function 5 */
+    void hf06(double*, double*, int, const double*, const double*, const int*, int, int) const;   /* Hybrid Function 6 */
 
-#endif // CEC14_TEST_FUNC_H
+    void cf01(double*, double*, int, const double*, const double*, int) const; /* Composition Function 1 */
+    void cf02(double*, double*, int, const double*, const double*, int) const; /* Composition Function 2 */
+    void cf03(double*, double*, int, const double*, const double*, int) const; /* Composition Function 3 */
+    void cf04(double*, double*, int, const double*, const double*, int) const; /* Composition Function 4 */
+    void cf05(double*, double*, int, const double*, const double*, int) const; /* Composition Function 5 */
+    void cf06(double*, double*, int, const double*, const double*, int) const; /* Composition Function 6 */
+    void cf07(double*, double*, int, const double*, const double*, const int*, int) const; /* Composition Function 7 */
+    void cf08(double*, double*, int, const double*, const double*, const int*, int) const; /* Composition Function 8 */
+
+    void shiftfunc(double*, double*, int, const double*) const;
+    void rotatefunc(double*, double*, int, const double*) const;
+    void sr_func(double*, double*, int, const double*, const double*, double, int, int) const; /* shift and rotate */
+    void asyfunc(double*, double* x, int, double) const;
+    void oszfunc(double*, double*, int) const;
+    void cf_cal(double*, double*, int, const double*, const double*, const double*, double*, int) const;
+
+    // 內部初始化
+    void load_all_files();  // 依 func_id_ 讀 M/OShift/SS（注意用 "%lf" 讀 double）
+    void alloc_buffers();   // 配 y_/z_/x_bound_
+};
+#endif

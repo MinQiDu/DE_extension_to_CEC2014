@@ -1,0 +1,158 @@
+DE | func_id = 1 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.73118e-36
+DE | func_id = 2 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 3.04821e-21
+DE | func_id = 3 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 12937.4
+DE | func_id = 4 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0.000902959
+DE | func_id = 5 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 19.3605
+DE | func_id = 6 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0
+DE | func_id = 7 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0.00678361
+DE | func_id = 8 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1334.8
+DE | func_id = 9 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 104.263
+DE | func_id = 10 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 7.13155e-15
+DE | func_id = 11 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0
+DE | func_id = 12 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.57054e-32
+DE | func_id = 13 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.34978e-32
+DE | func_id = 1 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 6.80445e+07
+DE | func_id = 2 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 200
+DE | func_id = 3 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 300
+DE | func_id = 4 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 470.796
+DE | func_id = 5 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 520.892
+DE | func_id = 6 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 626.552
+DE | func_id = 7 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 700
+DE | func_id = 8 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 898.626
+DE | func_id = 9 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1075.9
+DE | func_id = 10 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 4542.87
+DE | func_id = 11 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 7574.8
+DE | func_id = 12 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1202.07
+DE | func_id = 13 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1300.39
+DE | func_id = 1 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 6.80859e+07
+DE | func_id = 2 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 200
+DE | func_id = 3 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 300
+DE | func_id = 4 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 470.748
+DE | func_id = 5 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 520.892
+DE | func_id = 1 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 6.61972e+07
+DE | func_id = 2 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.02403e-09
+DE | func_id = 3 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 4.94789e-05
+DE | func_id = 4 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 70.7313
+DE | func_id = 5 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
+Avg Best fitness: 20.9105
+DE | func_id = 1 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.38894e+08
+DE | func_id = 2 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.27272e+06
+DE | func_id = 3 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1293.26
+DE | func_id = 4 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 137.067
+DE | func_id = 5 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 20.9066
+DE | func_id = 6 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 32.9397
+DE | func_id = 7 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0.299732
+DE | func_id = 8 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 129.294
+DE | func_id = 9 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 195.932
+DE | func_id = 10 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 4548
+DE | func_id = 11 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 6704.14
+DE | func_id = 12 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 2.14677
+DE | func_id = 13 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0.451763
+DE | func_id = 1 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.38318e+08
+DE | func_id = 2 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1.26186e+06
+DE | func_id = 3 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1255.78
+DE | func_id = 4 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 136.717
+DE | func_id = 5 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 20.9106
+DE | func_id = 6 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 32.486
+DE | func_id = 7 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0.279369
+DE | func_id = 8 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 126.812
+DE | func_id = 9 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 195.854
+DE | func_id = 10 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 4559.67
+DE | func_id = 11 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 6639.53
+DE | func_id = 12 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 2.19544
+DE | func_id = 13 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0.449967
+DE | func_id = 14 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 0.278949
+DE | func_id = 15 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 18.3794
+DE | func_id = 16 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 12.6866
+DE | func_id = 17 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 3.7013e+06
+DE | func_id = 18 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 165480
+DE | func_id = 19 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 11.8787
+DE | func_id = 20 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 4343.1
+DE | func_id = 21 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 521494
+DE | func_id = 22 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 322.581
+DE | func_id = 23 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 315.392
+DE | func_id = 24 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 227.26
+DE | func_id = 25 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 230.131
+DE | func_id = 26 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 100.449
+DE | func_id = 27 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 592.828
+DE | func_id = 28 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 1005.76
+DE | func_id = 29 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 21109.5
+DE | func_id = 30 | dim = 30 | pop_size = 540 | CR = 0.5 | F = 0.5
+Avg Best fitness: 11050.8

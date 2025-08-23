@@ -1,7 +1,7 @@
 #ifndef LSHADE_H
 #define LSHADE_H
 //#include "benchmark.h"
-#include "cec14_test_func.h" /* 包含 CEC14 函數的宣告 */ 
+#include "org_cec14_test_func.h" /* 包含 CEC14 函數的宣告 */ 
 #include <random>			 /* for random device & mt19937 */
 using namespace std;
 

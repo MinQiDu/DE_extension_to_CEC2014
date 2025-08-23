@@ -30,7 +30,7 @@
     <ClCompile Include="DE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cec14_test_func.cpp">
+    <ClCompile Include="org_cec14_test_func.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +59,7 @@
     <ClInclude Include="DE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cec14_test_func.h">
+    <ClInclude Include="org_cec14_test_func.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

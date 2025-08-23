@@ -1,0 +1,60 @@
+LSHADE | func_id = 1 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 2.86594e-17
+LSHADE | func_id = 2 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 0
+LSHADE | func_id = 3 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 7.87644e-29
+LSHADE | func_id = 4 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 4.64609e-11
+LSHADE | func_id = 5 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 20.1575
+LSHADE | func_id = 6 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 7.14077
+LSHADE | func_id = 7 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 0
+LSHADE | func_id = 8 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 6.96611e-16
+LSHADE | func_id = 9 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 18.7578
+LSHADE | func_id = 10 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 3.41147
+LSHADE | func_id = 11 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 1329.44
+LSHADE | func_id = 12 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 0.188021
+LSHADE | func_id = 13 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 0.173694
+LSHADE | func_id = 14 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 0.229143
+LSHADE | func_id = 15 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 2.51174
+LSHADE | func_id = 16 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 9.06943
+LSHADE | func_id = 17 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 420.999
+LSHADE | func_id = 18 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 16.4497
+LSHADE | func_id = 19 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 4.09934
+LSHADE | func_id = 20 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 3.83687
+LSHADE | func_id = 21 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 160.947
+LSHADE | func_id = 22 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 55.0781
+LSHADE | func_id = 23 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 315.244
+LSHADE | func_id = 24 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 223.581
+LSHADE | func_id = 25 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 202.634
+LSHADE | func_id = 26 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 100.159
+LSHADE | func_id = 27 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 300
+LSHADE | func_id = 28 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 800.972
+LSHADE | func_id = 29 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 717.278
+LSHADE | func_id = 30 | dim = 30 | pop_size = 4 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 6 | p = 0.11 | w/o archive list = true
+Avg Best fitness: 1619.65

@@ -1,0 +1,196 @@
+SHADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.37191e-166
+SHADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.88127e-76
+SHADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.85278e-44
+SHADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 5.84177e-33
+SHADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.156338
+SHADE | func_id = 6 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+SHADE | func_id = 7 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.000646184
+SHADE | func_id = 8 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.2 | w/o archive list = true
+Avg Best fitness: 0.133343
+SHADE | func_id = 9 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+SHADE | func_id = 10 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.9968e-15
+SHADE | func_id = 11 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+SHADE | func_id = 12 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.57054e-32
+SHADE | func_id = 13 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.34978e-32
+SHADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2966.83
+SHADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 200
+SHADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 300
+SHADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 400
+SHADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 520.124
+SHADE | func_id = 6 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 600.904
+SHADE | func_id = 7 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 700
+SHADE | func_id = 8 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.2 | w/o archive list = true
+Avg Best fitness: 800
+SHADE | func_id = 9 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 918.95
+SHADE | func_id = 10 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1000.55
+SHADE | func_id = 11 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2589.13
+SHADE | func_id = 12 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1200.17
+SHADE | func_id = 13 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1300.2
+SHADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2991.63
+SHADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 200
+SHADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 300
+SHADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 400
+SHADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 520.127
+SHADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1650.45
+SHADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+SHADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 9.27933e-28
+SHADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 4.23926e-29
+SHADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.1645
+SHADE | func_id = 1 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2943.56
+SHADE | func_id = 2 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.2639e-07
+SHADE | func_id = 3 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.1116e-09
+SHADE | func_id = 4 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 46.1305
+SHADE | func_id = 5 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.4929
+SHADE | func_id = 1 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3459
+SHADE | func_id = 2 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.18042e-07
+SHADE | func_id = 3 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 4.27518e-10
+SHADE | func_id = 4 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 54.0401
+SHADE | func_id = 5 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.5065
+SHADE | func_id = 6 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.47891
+SHADE | func_id = 7 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.48305e-17
+SHADE | func_id = 8 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 27.6915
+SHADE | func_id = 9 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 78.8167
+SHADE | func_id = 10 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 959.571
+SHADE | func_id = 11 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3916.15
+SHADE | func_id = 12 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.79002
+SHADE | func_id = 13 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.215196
+SHADE | func_id = 1 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2691.72
+SHADE | func_id = 1 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3436.8
+SHADE | func_id = 2 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.24336e-07
+SHADE | func_id = 3 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 6.32572e-10
+SHADE | func_id = 4 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 47.5274
+SHADE | func_id = 5 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.4978
+SHADE | func_id = 6 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.29614
+SHADE | func_id = 7 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 4.35382e-18
+SHADE | func_id = 8 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 27.6973
+SHADE | func_id = 9 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 78.281
+SHADE | func_id = 10 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 966.828
+SHADE | func_id = 11 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3871.15
+SHADE | func_id = 12 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.785766
+SHADE | func_id = 13 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.222347
+SHADE | func_id = 1 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2553.99
+SHADE | func_id = 2 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.36279e-07
+SHADE | func_id = 3 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 7.19975e-10
+SHADE | func_id = 4 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 51.3986
+SHADE | func_id = 5 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.4962
+SHADE | func_id = 6 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.97716
+SHADE | func_id = 7 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.95922e-17
+SHADE | func_id = 8 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 28.8848
+SHADE | func_id = 9 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 78.0366
+SHADE | func_id = 10 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 990.359
+SHADE | func_id = 11 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3837.16
+SHADE | func_id = 12 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.769038
+SHADE | func_id = 13 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.228406
+SHADE | func_id = 14 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.247251
+SHADE | func_id = 15 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 9.02076
+SHADE | func_id = 16 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 10.989
+SHADE | func_id = 17 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 383.846
+SHADE | func_id = 18 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 40.2859
+SHADE | func_id = 19 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 5.22502
+SHADE | func_id = 20 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 23.3326
+SHADE | func_id = 21 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 504.873
+SHADE | func_id = 22 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 178.479
+SHADE | func_id = 23 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 315.244
+SHADE | func_id = 24 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 223.59
+SHADE | func_id = 25 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 203.285
+SHADE | func_id = 26 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 100.233
+SHADE | func_id = 27 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 304.388
+SHADE | func_id = 28 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 806.755
+SHADE | func_id = 29 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 717.166
+SHADE | func_id = 30 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | MCR & MF size = 100 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1272.58

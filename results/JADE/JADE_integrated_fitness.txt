@@ -1,0 +1,142 @@
+JADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.47034e-142
+JADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2.84941e-61
+JADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 7.47303e-52
+JADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2.44533e-38
+JADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.0781691
+JADE | func_id = 6 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+JADE | func_id = 7 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.000529147
+JADE | func_id = 8 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.2 | w/o archive list = true
+Avg Best fitness: 0.146514
+JADE | func_id = 9 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+JADE | func_id = 10 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.9968e-15
+JADE | func_id = 11 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+JADE | func_id = 12 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.57054e-32
+JADE | func_id = 13 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.34978e-32
+JADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2264.49
+JADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 200
+JADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 300
+JADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 401.243
+JADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 520.163
+JADE | func_id = 6 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 606.452
+JADE | func_id = 7 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 700
+JADE | func_id = 8 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.2 | w/o archive list = true
+Avg Best fitness: 800
+JADE | func_id = 9 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 921.419
+JADE | func_id = 10 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1000.8
+JADE | func_id = 11 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2650.54
+JADE | func_id = 12 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1200.18
+JADE | func_id = 13 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1300.21
+JADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 2651.48
+JADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 200
+JADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 300
+JADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 401.243
+JADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 520.162
+JADE | func_id = 1 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 794.285
+JADE | func_id = 2 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0
+JADE | func_id = 3 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.00206793
+JADE | func_id = 4 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 7.05175e-29
+JADE | func_id = 5 | dim = 30 | pop_size = 100 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.2228
+JADE | func_id = 1 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.30852e-11
+JADE | func_id = 2 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.20011e-13
+JADE | func_id = 3 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 4.37062
+JADE | func_id = 4 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.30944
+JADE | func_id = 5 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.4544
+JADE | func_id = 1 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1.43853e-11
+JADE | func_id = 2 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 7.68553e-14
+JADE | func_id = 3 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 4.03213
+JADE | func_id = 4 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3.13905
+JADE | func_id = 5 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.4576
+JADE | func_id = 6 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 14.1634
+JADE | func_id = 7 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 4.09912e-15
+JADE | func_id = 8 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 12.1865
+JADE | func_id = 9 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 64.0941
+JADE | func_id = 10 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 406.674
+JADE | func_id = 11 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 3510.21
+JADE | func_id = 12 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.691769
+JADE | func_id = 13 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.224652
+JADE | func_id = 14 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 0.238977
+JADE | func_id = 15 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 7.02342
+JADE | func_id = 16 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 10.6894
+JADE | func_id = 17 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 296.529
+JADE | func_id = 18 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 20.677
+JADE | func_id = 19 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 4.89653
+JADE | func_id = 20 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1644.22
+JADE | func_id = 21 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 341.539
+JADE | func_id = 22 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 194.852
+JADE | func_id = 23 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 315.244
+JADE | func_id = 24 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 223.49
+JADE | func_id = 25 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 202.78
+JADE | func_id = 26 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 100.241
+JADE | func_id = 27 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 311.358
+JADE | func_id = 28 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 821.924
+JADE | func_id = 29 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 717.495
+JADE | func_id = 30 | dim = 30 | pop_size = 540 | mCR = 0.5 | mF = 0.5 | c = 0.1 | p = 0.05 | w/o archive list = true
+Avg Best fitness: 1060.58
