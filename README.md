@@ -295,8 +295,6 @@ DE_extension_to_CEC2014/
 
 ## ( VII ) Experimental Results
 
-<img src="docs/benchmark.png" width="50%"/>
-
 ### **Compared Convergence Plot of DE & JADE & SHADE & L-SHADE**
 <p align="center">
   <img src="results/Compare/compare_avg_cvg_plot_func1_dim30_archive_true.png" width="49%"/>
