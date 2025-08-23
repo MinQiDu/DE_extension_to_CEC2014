@@ -112,6 +112,7 @@ void DE_FileOutput(
 	avg_plot_file << "set label 'Avg best fitness: " << avg_best_fit << "' at graph 0.02, graph 0.95 font ',10' tc rgb 'black'\n";
 	avg_plot_file << "set lmargin 10\n";
 	avg_plot_file << "set tmargin 5\n";
+	avg_plot_file << "set logscale y\n";
 	avg_plot_file << "plot 'DE_fitness_avg_cvg" << to_string(func_id) << "_dim" << to_string(dim) << ".txt' with lines title 'Average Best Fitness'\n";
 	avg_plot_file.close();
 }

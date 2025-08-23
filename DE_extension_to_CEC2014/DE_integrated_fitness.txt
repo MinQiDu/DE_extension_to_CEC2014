@@ -1,6 +1,0 @@
-DE | func_id = 1 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
-Avg Best fitness: inf
-DE | func_id = 2 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
-Avg Best fitness: inf
-DE | func_id = 2 | dim = 30 | pop_size = 100 | CR = 0.5 | F = 0.5
-Avg Best fitness: inf
