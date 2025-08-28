@@ -363,22 +363,69 @@ DE_extension_to_CEC2014/
 ---
 
 ## ( VIII ) Observations
-
+JADE
 - JADE performs stably across diverse multimodal functions
 - Archive-less setting still converges in many cases
 - f5, f6 remain challenging, showing need for deeper exploitation
 - f8 is a boundary sensitive function. It's essential to make boundary control
 
+SHADE
+- Performs more robust global search than JADE; better for most multimodal functions
+比 JADE 更具全域搜尋能力，適合處理多峰問題
+- Converges faster than JADE on f1–f6, but may fall into local optima
+在 f1～f6 上比 JADE 收斂快，但也更容易陷入局部最佳
+- Performance sensitive to memory size H; too small causes oscillation, too large weakens adaptation
+效能受記憶長度 H 影響，H 太小容易震盪，太大則失去自適應性
+- Archive-free mode still maintains acceptable convergence
+關閉 Archive 時仍可維持基本收斂品質
+
+LSHADE
+- Population reduction speeds up convergence, especially in high dimensions
+縮減人口數使收斂速度加快，特別是在高維問題上效果明顯
+- Shows faster convergence than SHADE on most functions, but slightly less stable
+多數函數收斂比 SHADE 快，但穩定性略低
+- Highly sensitive to initial population size (D × r_initpop)
+對初始人口數較敏感，須根據 D 動態調整
+- Outstanding performance on f1–f5; struggles more with multimodal functions f7–f9
+在 f1～f5 表現突出，但在多峰的 f7～f9 有收斂困難
+
 ---
 
 ## ( IX ) Key Features
 
+JADE
 - Adaptive control of parameters (mCR, mF)
 - Archive mechanism toggle
 - Cauchy/Normal-based parameter sampling
 - Flexible benchmark support (13 functions)
 - Transposed fitness output for convergence plotting
 - Gnuplot automation for result visualization
+
+SHADE
+- Historical memory for adaptive mCR and mF update
+利用歷史記憶調整參數 mCR 和 mF
+- Parameter sampling with Cauchy (mF) and Normal (mCR) distributions
+使用 Cauchy（mF）與 Normal（mCR）進行參數抽樣
+- Toggleable archive to enhance diversity and avoid degeneration
+可開關的 Archive 強化多樣性並避免退化
+- Adjustable memory size H for adaptation flexibility
+記憶長度 H 可調，影響演化適應性
+- Supports all 13 benchmark functions (CEC14 func1–func13)
+支援 CEC14 函數 1～13
+- Integrated convergence recording and gnuplot script generation
+收斂紀錄整合與自動生成繪圖腳本
+
+SHADE
+- All features from SHADE
+繼承 SHADE 所有特性
+- Implements Linear Population Size Reduction (LPSR)
+實作「線性人口縮減」策略（LPSR）
+- Ideal for high-dimensional problems with reduced computational overhead
+適合高維問題，能有效減少計算負擔
+- Dynamically updates population size based on iteration progress
+根據迭代進度動態調整人口數
+- More aggressive convergence in early stages, focused refinement later
+初期加強探索，後期集中局部優化
 
 ---
 
@@ -389,14 +436,34 @@ DE_extension_to_CEC2014/
 - Automated convergence analysis and plotting
 - Command-line configuration and parameter tuning
 
+SHADE
+- Advanced adaptive DE mechanism with historical memory
+利用歷史記憶實作進階 DE 自適應機制
+- Cauchy & Normal sampling strategy for robustness
+採用 Cauchy 與 Normal 抽樣法提升健壯性
+- Archive interaction logic and memory update implementation
+Archive 管理與記憶更新策略設計
+- Sensitivity analysis for parameter H and archive size
+分析參數 H 與 Archive 對演化行為的影響
+
+LSHADE
+- Population control logic with real-time adjustment
+即時調整人口數的控制邏輯實作
+- Efficient convergence for large-D problems
+在高維問題中實現高效收斂
+- Modular parameter pipeline and memory-safe coding
+模組化參數流程與記憶體安全設計
+- Multithread-compatible benchmarking structure
+支援多執行緒的 benchmark 架構設計
+
 ---
 
 ## ( XI ) References
 
 JADE:   
-[J.-Q. Zhang, A.C. Sanderson, “JADE: Adaptive Differential Evolution With Optional External Archive,” _IEEE Transactions on Evolutionary Computation_, vol. 13, no. 5, pp. 945–958, 2009.](http://ieeexplore.ieee.org/document/5208221/)   
+[J.-Q. Zhang and A.C. Sanderson, “JADE: Adaptive Differential Evolution With Optional External Archive,” _IEEE Transactions on Evolutionary Computation_, vol. 13, no. 5, pp. 945–958, 2009.](http://ieeexplore.ieee.org/document/5208221/)   
 SHADE:    
-[R. Tanabe, A. Fukunaga, “Success-History Based Parameter Adaptation for
+[R. Tanabe and A. Fukunaga, “Success-History Based Parameter Adaptation for
 Differential Evolution,” _IEEE Transactions on Evolutionary Computation_, pp. 71-78, 2013.](http://ieeexplore.ieee.org/document/6557555/)   
 L-SHADE:   
-[R. Tanabe, A. Fukunaga, “Improving the search performance of SHADE using linear population size reduction,” _IEEE Congress on Evolutionary Computation_, pp. 1658-1665, 2014.](https://ieeexplore.ieee.org/document/6900380)
+[R. Tanabe and A. Fukunaga, “Improving the search performance of SHADE using linear population size reduction,” in _proceedings of the Conference IEEE Congress on Evolutionary Computation_, pp. 1658-1665, 2014.](https://ieeexplore.ieee.org/document/6900380)
