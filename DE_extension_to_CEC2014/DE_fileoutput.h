@@ -93,7 +93,9 @@ void DE_FileOutput(
 		for (int r = 0; r < run; ++r) {
 			sum += eva_fit_record[r][t];
 		}
-		avg_cvg_file << sum / run << "\n";
+		double avg = sum / run;
+		if (avg < 1e-99) avg = 1e-60; // 0 轉化為 1e-60 避免 logscale 時出錯
+		avg_cvg_file << avg << "\n";
 	}
 	avg_cvg_file.close();
 

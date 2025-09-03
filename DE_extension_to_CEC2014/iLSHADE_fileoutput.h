@@ -4,7 +4,7 @@
 #include <fstream>
 #include <iostream>
 
-void LSHADE_FileOutput(
+void iLSHADE_FileOutput(
 	const int run,
 	const std::vector<double>& best_fit_record,
 	const std::vector<std::vector<double>>& eva_fit_record,
@@ -13,13 +13,13 @@ void LSHADE_FileOutput(
 	bool archive_flag, double avg_best_fit
 ) {
 	// ===== 產生 .txt 的程式碼 =====
-	// 輸出每 run 運行的最佳 fitness 到 LSHADE_fitness_func_dim_archive_.txt
-	ofstream output_file("LSHADE_fitness_func" + to_string(func_id) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".txt", ios::out);
+	// 輸出每 run 運行的最佳 fitness 到 iLSHADE_fitness_func_dim_archive_.txt
+	ofstream output_file("iLSHADE_fitness_func" + to_string(func_id) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".txt", ios::out);
 	if (!output_file) {
 		cerr << "Error opening output file." << endl;
 		return;
 	}
-	output_file << "LSHADE | func_id = " << func_id << " | dim = " << dim << " | pop_size = " << pop_size
+	output_file << "iLSHADE | func_id = " << func_id << " | dim = " << dim << " | pop_size = " << pop_size
 		<< " | mCR = " << _mCR << " | mF = " << _mF << " | MCR & MF size = " << H << " | p = " << p
 		<< " | w/o archive list = " << (archive_flag ? "true" : "false") << endl;
 	output_file << "Avg Best fitness: " << avg_best_fit << endl;
@@ -28,21 +28,21 @@ void LSHADE_FileOutput(
 	}
 	output_file.close();
 
-	// 輸出整合結果到 LSHADE_integrated_fitness.txt
-	ofstream integrated_output("LSHADE_integrated_fitness.txt", ios::app);
+	// 輸出整合結果到 iLSHADE_integrated_fitness.txt
+	ofstream integrated_output("iLSHADE_integrated_fitness.txt", ios::app);
 	if (!integrated_output) {
 		cerr << "Error opening integrated output file." << endl;
 		return;
 	}
-	integrated_output << "LSHADE | func_id = " << func_id << " | dim = " << dim << " | pop_size = " << pop_size
+	integrated_output << "iLSHADE | func_id = " << func_id << " | dim = " << dim << " | pop_size = " << pop_size
 		<< " | mCR = " << _mCR << " | mF = " << _mF << " | MCR & MF size = " << H << " | p = " << p
 		<< " | w/o archive list = " << (archive_flag ? "true" : "false") << endl;
 	integrated_output << "Avg Best fitness: " << avg_best_fit << endl;
 	integrated_output.close();
 
 	///* 出圖(每一 run 分開) */
-	//// 輸出每 run 運行的 fitness 到 LSHADE_fitness_cvg.txt
-	//ofstream cvg_file("LSHADE_fitness_cvg" + to_string(func_id) + "_iter" + to_string(iter) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".txt");
+	//// 輸出每 run 運行的 fitness 到 iLSHADE_fitness_cvg.txt
+	//ofstream cvg_file("iLSHADE_fitness_cvg" + to_string(func_id) + "_iter" + to_string(iter) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".txt");
 	//if (!cvg_file) {
 	//	cerr << "Error opening fitness convergence file." << endl;
 	//	return;
@@ -59,15 +59,15 @@ void LSHADE_FileOutput(
 	//cvg_file.close();
 
 	//// ===== 在這裡填入你產生 .plt 的程式碼 =====
-	//// 產生 plot_LSHADE.plt 畫出收斂圖
-	//ofstream plot_file("plot_LSHADE_func" + to_string(func_id) + "_iter" + to_string(iter) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".plt");
+	//// 產生 plot_iLSHADE.plt 畫出收斂圖
+	//ofstream plot_file("plot_iLSHADE_func" + to_string(func_id) + "_iter" + to_string(iter) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".plt");
 	//if (!plot_file) {
 	//	cerr << "Error opening plot file." << endl;
 	//	return;
 	//}
 	//plot_file << "set terminal pngcairo size 1200,600 enhanced font 'Verdana,10'\n";
-	//plot_file << "set output 'LSHADE_cvg_plot" << "_func" << func_id << "_iter" << iter << "_dim" << dim << "_archive_" << (archive_flag ? "true" : "false") << ".png'\n";
-	//plot_file << "set title 'LSHADE Convergence Plot" << " (f" << func_id << ", iter" << iter << ", dim" << dim << ", archive: " << (archive_flag ? "true" : "false") << ")'\n";
+	//plot_file << "set output 'iLSHADE_cvg_plot" << "_func" << func_id << "_iter" << iter << "_dim" << dim << "_archive_" << (archive_flag ? "true" : "false") << ".png'\n";
+	//plot_file << "set title 'iLSHADE Convergence Plot" << " (f" << func_id << ", iter" << iter << ", dim" << dim << ", archive: " << (archive_flag ? "true" : "false") << ")'\n";
 	//plot_file << "set xlabel 'Iteration'\n";
 	//plot_file << "set ylabel 'Best Fitness'\n";
 	//plot_file << "set grid\n";
@@ -76,7 +76,7 @@ void LSHADE_FileOutput(
 	//plot_file << "set tmargin 5\n";
 	//plot_file << "plot ";
 	//for (int i = 2; i <= run + 1; ++i) {
-	//	plot_file << "'LSHADE_fitness_cvg" << to_string(func_id) << "_iter" << to_string(iter) << "_dim" << to_string(dim) << "_archive_" << (archive_flag ? "true" : "false") << ".txt' using :" << i
+	//	plot_file << "'iLSHADE_fitness_cvg" << to_string(func_id) << "_iter" << to_string(iter) << "_dim" << to_string(dim) << "_archive_" << (archive_flag ? "true" : "false") << ".txt' using :" << i
 	//		<< " with lines title 'Run " << (i - 1) << "'";
 	//	if (i != run + 1) plot_file << ", ";
 	//}
@@ -84,8 +84,8 @@ void LSHADE_FileOutput(
 	//plot_file.close();
 
 	/* 出圖(所有 run 平均) */
-	ofstream LSHADE_fitness_cvg_avg_file("LSHADE_fitness_avg_cvg" + to_string(func_id) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".txt");
-	if (!LSHADE_fitness_cvg_avg_file) {
+	ofstream iLSHADE_fitness_cvg_avg_file("iLSHADE_fitness_avg_cvg" + to_string(func_id) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".txt");
+	if (!iLSHADE_fitness_cvg_avg_file) {
 		cerr << "Error opening average fitness convergence file." << endl;
 		return;
 	}
@@ -98,19 +98,19 @@ void LSHADE_FileOutput(
 		}
 		double avg = avg_fit / run;
 		if (avg < 1e-99) avg = 1e-60; // 0 轉化為 1e-60 避免 logscale 時出錯
-		LSHADE_fitness_cvg_avg_file << avg << "\n"; // 寫入平均值
+		iLSHADE_fitness_cvg_avg_file << avg << "\n"; // 寫入平均值
 	}
-	LSHADE_fitness_cvg_avg_file.close();
+	iLSHADE_fitness_cvg_avg_file.close();
 
-	// 產生 plot_avg_LSHADE.plt 畫出平均收斂圖
-	ofstream avg_plot_file("plot_avg_LSHADE_func" + to_string(func_id) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".plt");
+	// 產生 plot_avg_iLSHADE.plt 畫出平均收斂圖
+	ofstream avg_plot_file("plot_avg_iLSHADE_func" + to_string(func_id) + "_dim" + to_string(dim) + "_archive_" + (archive_flag ? "true" : "false") + ".plt");
 	if (!avg_plot_file) {
 		cerr << "Error opening average plot file." << endl;
 		return;
 	}
 	avg_plot_file << "set terminal pngcairo size 1200,600 enhanced font 'Verdana,10'\n";
-	avg_plot_file << "set output 'LSHADE_avg_cvg_plot" << "_func" << func_id << "_dim" << dim << "_archive_" << (archive_flag ? "true" : "false") << ".png'\n";
-	avg_plot_file << "set title 'LSHADE Average Convergence Plot" << " (f" << func_id << ", dim" << dim << ", archive: " << (archive_flag ? "true" : "false") << ")'\n";
+	avg_plot_file << "set output 'iLSHADE_avg_cvg_plot" << "_func" << func_id << "_dim" << dim << "_archive_" << (archive_flag ? "true" : "false") << ".png'\n";
+	avg_plot_file << "set title 'iLSHADE Average Convergence Plot" << " (f" << func_id << ", dim" << dim << ", archive: " << (archive_flag ? "true" : "false") << ")'\n";
 	avg_plot_file << "set xlabel 'Evaluation times'\n";
 	avg_plot_file << "set ylabel 'Average Best Fitness'\n";
 	avg_plot_file << "set grid\n";
@@ -118,6 +118,7 @@ void LSHADE_FileOutput(
 	avg_plot_file << "set lmargin 10\n";
 	avg_plot_file << "set tmargin 5\n";
 	avg_plot_file << "set logscale y\n";
-	avg_plot_file << "plot 'LSHADE_fitness_avg_cvg" << to_string(func_id) << "_dim" << to_string(dim) << "_archive_" << (archive_flag ? "true" : "false") << ".txt' with lines title 'Average Fitness'\n";
+	avg_plot_file << "plot 'iLSHADE_fitness_avg_cvg" << to_string(func_id) << "_dim" << to_string(dim) << "_archive_" << (archive_flag ? "true" : "false") << ".txt' with lines title 'Average Fitness'\n";
 	avg_plot_file.close();
 }
+

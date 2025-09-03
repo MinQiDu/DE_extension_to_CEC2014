@@ -33,6 +33,9 @@
     <ClCompile Include="org_cec14_test_func.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="iLSHADE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SHADE_fileoutput.h">
@@ -60,6 +63,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="org_cec14_test_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iLSHADE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iLSHADE_fileoutput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
