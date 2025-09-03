@@ -518,8 +518,6 @@ LSHADE
 在高維問題中實現高效收斂
 - Modular parameter pipeline and memory-safe coding
 模組化參數流程與記憶體安全設計
-- Multithread-compatible benchmarking structure
-支援多執行緒的 benchmark 架構設計
 
 ---
 
