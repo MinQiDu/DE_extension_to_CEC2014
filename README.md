@@ -574,7 +574,7 @@ SHADE
 - Integrated convergence recording and gnuplot script generation
 收斂紀錄整合與自動生成繪圖腳本
 
-SHADE
+L-SHADE
 - All features from SHADE
 繼承 SHADE 所有特性
 - Implements Linear Population Size Reduction (LPSR)
@@ -621,23 +621,11 @@ Archive 管理與記憶更新策略設計
 - Sensitivity analysis for parameter H and archive size
 分析參數 H 與 Archive 對演化行為的影響
 
-LSHADE
+L-SHADE & iL-SHADE
 - Population control logic with real-time adjustment
 即時調整人口數的控制邏輯實作
 - Efficient convergence for large-D problems
 在高維問題中實現高效收斂
-- Modular parameter pipeline and memory-safe coding
-模組化參數流程與記憶體安全設計
-- Multithread-compatible benchmarking structure
-支援多執行緒的 benchmark 架構設計
-
-iL-SHADE
-- **Budget-aware scheduling:** implemented nfes-based **p** schedule and staged **F/CR** guardrails.  
-  **預算導向參數排程：** 以 nfes 實作 **p** 線性排程與分段 **F/CR** 護欄。
-- **Smoothed success-history memory:** blended updates for \(M_F, M_{CR}\) with weighted means of SF/SCR, reducing variance.  
-  **平滑成功史記憶：** 以成功加權均值並與既有記憶混合更新 \(M_F, M_{CR}\)，降低方差。
-- **High-parameter slot injection:** maintained a fixed \((M_F,M_{CR})\) cell to enable controlled large steps.  
-  **高參數槽注入：** 維持固定 \((M_F,M_{CR})\) 記憶槽，提供可控的大步探索。
 
 ---
 
